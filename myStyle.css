@@ -114,9 +114,10 @@ a:visited{
     }
  figure img{
      width: 100%;
- }
-  .myButton, .helpButton{
+ }.myButton, .helpButton{
     padding: 20px;
+    box-shadow: 2px 2px 2px black;
+    margin: 0 auto;
     display:block;
     background-color:#ae9a93;
     color: #f5f4f4;
