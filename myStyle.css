@@ -1,11 +1,4 @@
-figure{
-    max-width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-}
- figure img{
-     width: 100%;
- }h1
+h1
  {
     text-align: center;
     font-size: 2rem;
@@ -17,7 +10,7 @@ body{
     color: white;
     background-color: #6b68b5;
 }
-main, header, footer{
+main, footer{
     background-color: #21005f;
     border-radius: 15px;
     border: 5px solid #6b68b5;
@@ -44,10 +37,9 @@ a:visited{
 }
 .food
 {
-    flex: 0 1 300px;
-    border: 1px solid black;
+    flex: 0 1 450px;
     text-align: center;
 }
-food img{
+.food img{
     width: 60%;
 }
