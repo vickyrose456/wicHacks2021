@@ -13,10 +13,32 @@
 </head>
 <body>
     <header>Restaraunt Name Here</header>
+        <div class="myButton">
+            Checkout
+        </div>
+        <div class="helpButton">
+            Help!
+        </div>
 
-    <main>
+        <form action="/action_page.php">
+            <div class="container">
+              
+          
+              <label for="table"><b>Table</b></label>
+              <input type="text" placeholder="Enter your table #" name="table" id="table" required>
+          
+              <button type="submit" class="registerbtn">Register</button>
+            </div>
+           
+          </form>
+    
+        <main>
+
         <h1>Menu</h1>
-        <br>
+        <h2>Todays Special!</h2>
+        <figure><img src="photos/kabab.jpg" alt="kabobs on barbeque grill">
+            <figcaption>BBQ Kabobs</figcaption>
+        </figure>
 
         <section id = "menu">
             <div class="food">
@@ -24,12 +46,12 @@
                 <a href = "apps.html"><img src="photos/apps.jpg" alt="tray of different appetizers"></a> 
             </div>
 
-            <div class="food">
+            <div class="food greek">
                 <span class="name">Soups and Salads</span>
                 <a href="soup_sal.html"><img src="photos/salad.jpg" alt = "Greek salad"></a>
             </div>
 
-            <div class="food">
+            <div class="food entree">
                 <span class="name">Entrees</span>
                 <a href="entrees.html"><img src="photos/burger.jpg" alt="Hamburger on plate"></a>
             </div>
