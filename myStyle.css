@@ -1,0 +1,53 @@
+figure{
+    max-width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ figure img{
+     width: 100%;
+ }h1
+ {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Roboto, sans-serif;
+    color: #f5f4f4;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #6b68b5;
+}
+main, header, footer{
+    background-color: #21005f;
+    border-radius: 15px;
+    border: 5px solid #6b68b5;
+    margin: 0 auto;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:link{
+    color: #7cabb5;
+}
+a:visited{
+    color:  #878870;
+}span{
+    display: block;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}#menu
+{
+    display: flex;
+    flex-flow: row wrap;
+}
+.food
+{
+    flex: 0 1 300px;
+    border: 1px solid black;
+    text-align: center;
+}
+food img{
+    width: 60%;
+}
